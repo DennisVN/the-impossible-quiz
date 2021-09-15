@@ -18,4 +18,5 @@ const TestStyledComponent: FC <PropsWithChildren<TestStyledComponentProps>> = ({
         <StyledTestHeader>{label}</StyledTestHeader>
     </StyledTestDiv>);
 }
+
 export default TestStyledComponent;

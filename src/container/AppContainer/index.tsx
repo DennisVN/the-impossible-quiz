@@ -6,8 +6,8 @@ const AppContainer: FC <any> = () => {
 
 return <Switch>
         <Route path="/quiz" render={(props) =><QuizContainer{...props}/>}/>
+        <Route path="/" render={() => <h4>consider checking url</h4>}/>
     </Switch>
-
 }
 
 export default AppContainer;
