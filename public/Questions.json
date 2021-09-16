@@ -1,0 +1,24 @@
+{
+    "name": "QuestionsList",
+    "questions":
+    [  
+        {
+        "question": "Is the earth flat or round ?",
+        "answer": [
+            { "text": "an elipse"}
+            ]
+        },
+        {
+        "question": "How many Pokemon are there in total ?",
+        "answer": [
+            { "text": "too much"}
+            ]
+        },
+        {
+        "question": "How difficult is combining TypeScript with React ?",
+        "answer": [
+            { "text": "as difficult as you make it"}
+            ]
+        }
+    ]
+}
