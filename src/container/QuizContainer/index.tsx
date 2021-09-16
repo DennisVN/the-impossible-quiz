@@ -3,6 +3,7 @@ import { InputGroup } from "react-bootstrap";
 import CustomButton from "../../components/Button";
 import InputField from "../../components/InputField";
 import TestStyledComponent from "../../components/TestStyledComponent";
+import StyledLabel from "../../components/Label"
 // Eindcomponenten komen hier terecht. 
 // TSC is main container aka form
 
@@ -35,6 +36,7 @@ const QuizContainer: FC <any> = () => {
     return  <TestStyledComponent>
                 <div>
                 <InputGroup>
+                    <StyledLabel placeholder="question comes here" label="quizLabel"></StyledLabel>
                     <InputField placeholder="Enter your guess here" label="userInput" />
                     <CustomButton label="Submit" variant="secondary" onClick={handleClick}/>
                 </InputGroup>
